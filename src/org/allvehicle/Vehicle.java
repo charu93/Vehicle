@@ -8,6 +8,9 @@ public class Vehicle {
 	public void VehicleNecessery() {
 		System.out.println("Vehicle classification:");
 	}
+	public  void aura() {
+		System.out.println("Car Aura");
+	}
 	public static void main(String[] args) {
 		Vehicle v = new Vehicle();
 		FourWheeler f =new FourWheeler();
